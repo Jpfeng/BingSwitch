@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         tv = (TextView) findViewById(R.id.tv_1);
         btn = (Button) findViewById(R.id.btn_1);
 
-        bs.printDebugLog(false);
+        bs.printDebugLog(true);
 
         bs.setOnCheckedChangeListener(new BingSwitch.OnCheckedChangeListener() {
             @Override
